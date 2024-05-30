@@ -62,7 +62,7 @@ int main() {
         }
         printf("%d ", books[i]);
     }
-    printf("\nNumber of books: %d\n",books);
+    printf("\nNumber of books: %d\n",totalBooks);
     printf("\nAverage pages per employee: %d\n", avg_pages);
 
     return 0;
