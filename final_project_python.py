@@ -33,7 +33,7 @@ def main():
             print(f"\nEmployee {sections + 1}:", end=" ")
             sections += 1
         print(book, end=" ")
-
+    print(f"\nNumber of books: {total_books}")
     print(f"\nAverage pages per employee: {avg_pages}")
 
 if __name__ == "__main__":
